@@ -12,8 +12,8 @@
 \usepackage{algorithmic}
 
 \title{Songs}
-\author{amohan}
-\date{January 17th 2023}
+\author{BOchieng}
+\date{January 20th 2023}
 
 \begin{document}
 \begin{itemize}
@@ -29,6 +29,15 @@
 \begin{algorithmic}[1]
 % add your algorithm here
 % please note: this code may not compile without adding the algorithmic logic in here ...
+\STATE $temp \gets S[0]$ %statement which is temp
+\STATE $res \gets 1$ % is the arrow for assign
+\FOR{$i=1$ to $|S|$} % the dollar sign is for any math computation/ start of for loop
+\IF{$S[i] > temp$} % open if
+\STATE $temp \gets S[i]$
+\STATE $res \gets i-1$
+\ENDIF % end if 
+\ENDFOR % for loop end 
+\STATE \textbf{return} res; % return statement
 
 \end{algorithmic}
 \label{alg:seq}
