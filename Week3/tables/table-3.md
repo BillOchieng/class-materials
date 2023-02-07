@@ -4,10 +4,10 @@
 
 ## While Condition -- D != {} and done = false
 
-i	h	done	D       Span
-0  	    				S[0] = 
-1          				S[1] = 
-2      					S[2] = 
+i   	h	  done	    D         Span
+0  	    				  S[0] =      S[1]
+1          				S[1] =      
+2      					  S[2] = 
 3          				S[3] = 
 4          				S[4] = 
 5          				S[5] = 
